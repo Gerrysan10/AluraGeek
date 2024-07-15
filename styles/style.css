@@ -37,10 +37,11 @@ body {
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
-    flex-direction: row; /* Asegura que los elementos hijos estén en una fila */
+    flex-direction: row; 
     font-size: x-large;
     align-items: flex-start;
     justify-content: center;
+    height: auto
 }
 
 .cont-products {
