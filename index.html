@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Desafío Alura Geek</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header-img" src="img/game-control-for-pc.png" alt="gamecontrol">
+        <h1 class="header-h1">Alura Geek</h1>
+    </header>
+    <main class="main-container">
+        <section class="cont-products">
+            <h1>Mis productos:</h1>
+            <div data-product class="products-container">
+                <!-- Aquí se agregarán las tarjetas de productos -->
+            </div>
+        </section>
+        <section class="cont-form">
+            <h1>Agregar producto:</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="Nombre" type="text">
+                <input data-price placeholder="Precio" type="text">
+                <input data-image placeholder="URL de la imagen" type="text">
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button-submit">Enviar</button>
+                    <button type="reset" class="button-clear" id="button-clear">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>🎮 Alura Geek</p>
+        <br>
+        <p>Desarrollado por ©️Luis Ovando 2024</p>
+    </footer>
+    <script type="module" src="Js/controllers/main.js"></script>
+</body>
+</html>
